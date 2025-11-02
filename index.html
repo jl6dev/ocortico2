@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>O Cortiço — Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js.js"></script>
+</head>
+<body data-page="index">
+  <div id="app">
+    <header class="topbar">
+      <div class="logo">
+        <img src="images/o-cortico.jpg" alt="Capa" class="logo-img">
+        <h1>O Cortiço</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+        <a href="personagens.html" class="nav-link">Personagens</a>
+        <a href="galeria.html" class="nav-link">Galeria</a>
+      </nav>
+    </header>
+
+    <!-- Slider estilo stories/tiktok -->
+    <main class="story-wrap">
+      <div class="story-slider" id="storySlider" aria-live="polite">
+        <!-- Card 1 -->
+        <section class="story-card">
+          <div class="card-media" style="background-image: url('images/273744_Capa_ALTA.jpg')"></div>
+          <div class="card-body">
+            <h2>O Cortiço</h2>
+            <p class="lead">Um clássico do Naturalismo por Aluísio Azevedo — vida, cor e conflito nas vielas do Rio.</p>
+            <div class="card-actions">
+              <button class="btn ghost" data-cta="sobre">Saber mais</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Card 2 -->
+        <section class="story-card">
+          <div class="accent"></div>
+          <div class="card-body center">
+            <h2>Personagens</h2>
+            <p class="lead">João Romão, Bertoleza, Rita Baiana... cada um com sua voz no cortiço.</p>
+            <div class="meter">
+              <div class="dot" style="--i:0"></div>
+              <div class="dot" style="--i:1"></div>
+              <div class="dot" style="--i:2"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Card 3 -->
+        <section class="story-card">
+          <div class="card-body">
+            <h2>Explore</h2>
+            <p class="lead">Deslize, clique e interaja — o site foi feito como um micro-vídeo: rápido e convidativo.</p>
+            <div class="card-actions">
+              <button class="btn primary" id="openGallery">Abrir galeria</button>
+              <button class="btn ghost" id="openPersonagens">Personagens</button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- nav slider -->
+      <div class="slider-controls">
+        <button id="prevSlide" class="control">‹</button>
+        <button id="nextSlide" class="control">›</button>
+      </div>
+
+      <!-- progress bar like stories -->
+      <div class="progress-row" id="progressRow">
+        <div class="progress" style="width: 33%"></div>
+        <div class="progress" style="width: 33%"></div>
+        <div class="progress" style="width: 34%"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <small>Feito por Jamyle e kaylane</small>
+    </footer>
+  </div>
+</body>
+</html>
+

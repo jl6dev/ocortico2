@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>O Cortiço — Galeria</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js.js"></script>
+</head>
+<body data-page="galeria">
+  <div class="topbar minimal">
+    <a href="index.html" class="back">←</a>
+    <h2>Galeria</h2>
+  </div>
+
+  <main class="gallery-grid">
+    <!-- imagens repetidas como exemplo; troque pelas suas -->
+    <div class="gimg" style="background-image:url('images/galeria_jpg\ \(image\).jpeg')"></div>
+    <div class="gimg" style="background-image:url('images/download.jpeg')"></div>
+    <div class="gimg" style="background-image:url('images/Trabalho\ de\ portugues\ -\ O\ CORTIÇO.jpeg')"></div>
+    <div class="gimg" style="background-image:url('images/Mundo\ Estranho\ é\ indicada\ ao\ Prêmio\ Esso\ com\ 3\ matérias.jpeg')"></div>
+    <div class="gimg" style="background-image:url('images/O\ Cortiço.jpeg')"></div>
+    <div class="gimg" style="background-image:url('images/Trabalho\ de\ portugues2\ -\ O\ CORTIÇO.jpeg')"></div>
+  </main>
+
+  <!-- lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lb-close" id="lbClose">×</button>
+    <div class="lb-content" id="lbContent"></div>
+  </div>
+</body>
+</html>
